@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* Nav Bar start */
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.nav {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+#home, #My-profile, #Find-Connections {
+    margin: 0px 20px;
+}
+.btn {
+    margin-left: 150px;
+    background-color: rgb(3, 40, 250);
+}
+a {
+    text-decoration: none;
+}
+/* Nav Bar end */
+/* main container start */
+#main-container {
+display:flex;
+justify-content: center;
+}
+/* main container end */
+
+/* left container start*/
+.left-container {
+    min-width: 50%;
+}
+/* left container end */
+/* Profile start */
+.container-profile{
+    margin: 20px;
+    border: solid 2px gray;
+}
+main {
+    min-height: 350px;
+    width: 90%;
+}
+.main-header {
+    background-color: aqua;
+    min-height: 100px;
+}
+#user-logo {
+    position: relative;
+    width: 100px;
+    top: 50px;
+    left: 25px;
+}
+.Name {
+position: relative;
+top: 50px;
+left: 25px;
+} 
+.location {
+    display: flex;
+}
+#map-logo {
+    width: 15px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.city {
+    position: relative;
+    top: 52px;
+    left: 25px;
+}
+.titles {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 60px;
+    left: 25px;
+}
+
+.edit-profile {
+    display: flex;
+    justify-items: baseline;
+    align-items: baseline;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+
+#gear {
+    width: 20px;
+    margin: 10px;
+}
+/* profile end */
+
+/* education start */
+.Education {
+    margin: 20px;
+    border: solid 2px gray;
+    min-height: 200px;
+    width: 90%;
+}
+.title {
+    background-color: aqua;
+}
+/* education end*/
+
+/* Connection start */
+/* title start */
+.connection{
+    margin: 20px;
+    border: solid 2px gray;
+    min-height: 100px;
+    width: 90%;
+}
+
+.title-container {
+    align-items: center;
+    justify-content: center;
+}
+#number-two {
+    background-color: gray;
+    border-radius: 20px;
+    padding: 0 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.connection-title {
+    background-color: aqua;
+    min-height: 30px;
+}
+/* title end */
+
+/* first contact start */
+.first-conntacts {
+    display:flex;
+}
+#img-todd {
+    position:relative;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+}
+.todd {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+#contacts-accept {
+    position:relative;
+    top: 10px;
+    left: 25px;
+    height: 30px;
+    width: 30px;
+}
+#contacts-close {
+    position:relative;
+    top: 10px;
+    left: 35px;
+    height: 30px;
+    width: 30px;
+}
+/* first contact end */
+
+/* second contact start */
+.second-contact {
+    display: flex;
+}
+#img-phil {
+    position:relative;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.phil {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#second-accept-circle {
+    position:relative;
+    top: 10px;
+    left: 32px;
+    height: 30px;
+    width: 30px;
+}
+#second-close-circle {
+    position:relative;
+    top: 10px;
+    left: 42px;
+    height: 30px;
+    width: 30px;
+}
+/* second contact end */
+/* Connection end */
+
+/* your connections start */
+/* first contact */
+.second-contact-list-container {
+    margin: 20px;
+    border: solid 2px gray;
+    min-height: 200px;
+    width: 90%;
+}
+.second-contact-list-title {
+    background-color: aqua;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#number-fiveHund {
+    background-color: gray;
+    border-radius: 28%;
+    padding: 2px; ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* s-first contact */
+.s-first-contact{
+    display: flex;
+}
+#img-adrien {
+    position:relative;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+}
+#andrien {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+#s-accept-img {
+    position:relative;
+    top: 10px;
+    left: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+#s-close-img {
+    position:relative;
+    top: 10px;
+    left: 30px;
+    height: 30px;
+    width: 30px;
+}
+/* s-first contact end*/
+
+.s-second-contact {
+    display: flex;
+}
+#img-anne {
+    position:relative;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+}
+#Anne {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#accept-anne {
+    position:relative;
+    top: 10px;
+    left: 40px;
+    height: 30px;
+    width: 30px;
+}
+
+#close-anne {
+    position:relative;
+    top: 10px;
+    left: 50px;
+    height: 30px;
+    width: 30px;
+}
+/* second contact end */
+
+/* third contact start */
+.third-contact {
+    display: flex;
+}
+
+#img-alayne {
+    position:relative;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#Alayne {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#accept-alayne {
+    position:relative;
+    top: 10px;
+    left: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+#close-alayne {
+    position:relative;
+    top: 10px;
+    left: 40px;
+    height: 30px;
+    width: 30px;
+}
+/* third contact end */
+
+/* forth contact start */
+.forth-contact {
+    display: flex;
+}
+#img-array {
+    position:relative;
+    top: 10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#Array {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#accept-array {
+    position:relative;
+    top: 10px;
+    left: 40px;
+    height: 30px;
+    width: 30px;
+}
+
+#close-array {
+    position:relative;
+    top: 10px;
+    left: 50px;
+    height: 30px;
+    width: 30px;
+}
+
+.View-More-container {
+    display: flex;
+    border: solid gray;
+    justify-content: center;
+}
